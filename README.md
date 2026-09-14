@@ -4,9 +4,9 @@ A curated, continuously maintained list of foundation models for structured data
 
 Our survey: **From Universal Prediction to Universal Workflows: A Survey of Foundation Models for Tabular and Time Series Data**. [Read the paper (link coming soon)](PAPER_URL_PLACEHOLDER).
 
-This list primarily covers foundation models and foundation-model-based prediction methods for tabular and time series data, alongside agents and their workflow components. Graph and relational foundation models will be maintained in a separate extension section. Standalone benchmarks, other surveys, and conventional task-specific models are outside the scope of this list.
+This list primarily covers foundation models and foundation-model-based prediction methods for tabular and time series data, alongside agents and their workflow components. Graph and relational foundation models are maintained in a separate extension section. Standalone benchmarks, other surveys, and conventional task-specific models are outside the scope of this list.
 
-Papers are listed by year within each category. Multi-task models appear in both time-series categories when they support forecasting and classification. Venue names follow the survey bibliography; CoRR denotes an arXiv preprint, not a peer-reviewed venue. A dash indicates an unconfirmed venue, method name, or public GitHub repository.
+Papers are listed by year within each category. Multi-task models appear in both time-series categories when they support forecasting and classification. Venue entries distinguish main conferences, workshops, journals, and other releases; CoRR denotes an arXiv preprint, not a peer-reviewed venue. A dash indicates an unconfirmed venue, method name, or public GitHub repository.
 
 ## Contents
 
@@ -157,19 +157,23 @@ Papers are listed by year within each category. Multi-task models appear in both
 
 ## Graph / Relational Extension
 
-This section extends the list beyond the survey's focus on tabular and time series data. Entries will be added as this collection grows.
+This section collects the graph and relational extensions discussed in the survey, including native foundation models and methods that adapt tabular foundation models to these domains. GitHub links may provide evaluation or API examples rather than open model weights or training code.
 
 ### Graph Foundation Model
 
-Coming soon.
-
-<!-- Add entries using the same columns as above: Paper Title | Method | Year | Venue | Paper | GitHub. -->
+| Paper Title | Method | Year | Venue | Paper | GitHub |
+| --- | --- | --- | --- | --- | --- |
+| GraphPFN: A Prior-Data Fitted Graph Foundation Model | GraphPFN | 2026 | ICML | [Paper](https://arxiv.org/abs/2509.21489) | [GitHub](https://github.com/yandex-research/graphpfn) |
+| Turning Tabular Foundation Models into Graph Foundation Models | G2T-FM | 2025 | NeurIPS New Perspectives in Graph Machine Learning Workshop | [Paper](https://arxiv.org/abs/2508.20906) | [GitHub](https://github.com/yandex-research/G2T-FM) |
 
 ### Relational Foundation Model
 
-Coming soon.
-
-<!-- Add entries using the same columns as above: Paper Title | Method | Year | Venue | Paper | GitHub. -->
+| Paper Title | Method | Year | Venue | Paper | GitHub |
+| --- | --- | --- | --- | --- | --- |
+| Advancing Open and Reproducible Relational Learning: RelArena-α, TabPFN-Rel and RPI | TabPFN-Rel | 2026 | CoRR | [Paper](https://arxiv.org/abs/2608.16319) | [GitHub](https://github.com/PriorLabs/relarena) |
+| KumoRFM-2: Scaling Foundation Models for Relational Learning | KumoRFM-2 | 2026 | CoRR | [Paper](https://arxiv.org/abs/2604.12596) | [GitHub](https://github.com/kumo-ai/kumo-rfm) |
+| Relational Transformer: Toward Zero-Shot Foundation Models for Relational Data | Relational Transformer / RT | 2026 | ICLR | [Paper](https://proceedings.iclr.cc/paper_files/paper/2026/hash/7107d4d2e837bde2171c6b71b5bde954-Abstract-Conference.html) | [GitHub](https://github.com/stanford-star/relational-transformer) |
+| Griffin: Towards a Graph-Centric Relational Database Foundation Model | Griffin | 2025 | ICML | [Paper](https://proceedings.mlr.press/v267/wang25da.html) | [GitHub](https://github.com/yanxwb/Griffin) |
 
 ## Citation
 
