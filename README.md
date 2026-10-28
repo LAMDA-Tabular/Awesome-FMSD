@@ -2,7 +2,7 @@
 
 A curated, continuously maintained list of foundation models for structured data (FMSD) and agentic workflows.
 
-Our survey: **From Universal Prediction to Universal Workflows: A Survey of Foundation Models for Tabular and Time Series Data**. Accepted by *Frontiers of Computer Science* (FCS). [Read the paper](https://journal.hep.com.cn/fcs/EN/10.1007/s11704-026-61367-2).
+Our survey: **From Universal Prediction to Universal Workflows: A Survey of Foundation Models for Tabular and Time Series Data**. Accepted by *Frontiers of Computer Science* (FCS). [PDF](paper.pdf) / [Journal](https://journal.hep.com.cn/fcs/EN/10.1007/s11704-026-61367-2).
 
 ## Citation
 
